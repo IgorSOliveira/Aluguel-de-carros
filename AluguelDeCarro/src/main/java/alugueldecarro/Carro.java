@@ -8,11 +8,11 @@ public class Carro {
 	private boolean disponivel;
 	
 	//Construtor
-	public Carro(String placa, String modelo, double precoPorDia, boolean disponivel) {
-		this.placa = placa;
-		this.modelo = modelo;
-		this.precoPorDia = precoPorDia;
-		this.disponivel = true;
+	public Carro(String placa, String modelo, double precoPorDia) {
+	    this.placa = placa;
+	    this.modelo = modelo;
+	    this.precoPorDia = precoPorDia;
+	    this.disponivel = true;
 	}
 
 	public String getPlaca() {
@@ -22,6 +22,7 @@ public class Carro {
 	public String getModelo() {
 		return modelo;
 	}
+	
 
 	public double getPrecoPorDia() {
 		return precoPorDia;
