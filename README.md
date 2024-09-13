@@ -3,6 +3,6 @@ Este projeto é uma aplicação desenvolvida em Java dando ênfase aos padrões 
 
 ## Como executar:
 - Clonar repositório:
-```markdown
-git clone git@github.com:IgorSOliveira/Aluguel-de-carros.git
-```
+
+```bash
+git clone https://github.com/usuario/repositorio.git
